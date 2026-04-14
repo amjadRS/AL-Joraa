@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أفرعنا | الجرعة الدوائية</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/loc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map.css">
+
+    
+</head>
+
+<body>
+
+
+<div id="header"></div>
+
+
+ <div class="img_map">
+        <img decoding="async" src="./image/map.png" alt="lJorah ALDawaai Home Banner">
+    </div>
+
+
+
+<div class="card-container">
+
+    <div id="map"></div>
+
+    <div class="info-box">
+    <h2 class="pharmacist-name" id="pharmacistName"></h2>
+
+    <div class="item-row" id="phone1Row">
+        <span class="text-data" id="phone1"  ></span>
+        <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+    </div>
+
+    <div class="item-row" id="phone2Row">
+        <span class="text-data" id="phone2" ></span>
+        <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+    </div>
+
+    <div class="item-row" id="addressRow">
+        <span class="text-data" id="address" ></span>
+        <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+    </div>
+
+    <div class="item-row">
+        <a href="#" target="_blank" class="map-link">
+            فتح في Google Maps
+        </a>
+    </div>
+</div>
+
+</div>
+
+<!-- Leaflet -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Your JS -->
+<script src="js/map.js"></script>
+
+
+
+<div id="footer"></div>
+
+<script src="Js/FootHead.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+/* Main Maps img */
+
+.img_map{
+     position: relative;
+    z-index: 1;
+    width: 100%;
+    max-height: 380px;      /* controls banner height */
+    overflow: hidden;       /* hides extra image parts */
+    padding-bottom: 270px;
+}
+
+.img_map img{
+     width: 100%;
+    height: 600px;
+    object-fit: cover;      /* fills banner nicely */
+    display: block;
+    
+}
+
+
+/*   Location img  */
+
+.image-row-map {
+    display:flex;
+    flex-wrap: wrap;        
+    gap: 60px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+    justify-content: center;
+
+}
+
+.image-box-map {
+  /*flex: 1;*/
+  width: calc(50% - 30px);
+  min-width: 200px;
+  overflow: hidden;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;  
+
+}
+
+.image-box-map img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 12px;  
+}
+
+
+
+.overlay-text {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+     color: rgb(0, 0, 103);
+}
+
+
+/* hover effect */
+
+.image-box-map:hover img {
+    transform: scale(1.05);
+}
