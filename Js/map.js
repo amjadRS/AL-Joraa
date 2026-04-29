@@ -173,8 +173,8 @@ L.marker([LOCATION.lat, LOCATION.lng], { icon: customIcon })
 // CIRCLE
 // ==========================
 L.circle([LOCATION.lat, LOCATION.lng], {
-    color: '#b02a37',
-    fillColor: '#b02a37',
+    color: '#aeb02a',
+    fillColor: '#aeb02a',
     fillOpacity: 0.2,
     radius: 200
 }).addTo(map);

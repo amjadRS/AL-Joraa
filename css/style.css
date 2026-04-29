@@ -244,6 +244,7 @@ body {
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: bold;
+    color: rgb(0, 0, 103);
 }
 
 
@@ -468,7 +469,7 @@ body {
 }
 
 .footer-social a:hover {
-    background-color: #a2d24a;
+    background-color: #4a77d2;
     color: #000;
 }
 
@@ -481,7 +482,7 @@ body {
 }
 
 .copyright a {
-    color: #a2d24a;
+    color: #4a77d2;
     text-decoration: none;
 }
 
