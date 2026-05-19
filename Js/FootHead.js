@@ -27,7 +27,6 @@ fetch("components/header.html")
                 navLinks.classList.remove("active");
             }
         });
-
     }
 });
   
